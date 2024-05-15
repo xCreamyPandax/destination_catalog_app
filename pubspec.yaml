@@ -1,0 +1,65 @@
+name: destination_catalog_app
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/submarine.jpg
+    - assets/images/monkasel_1.jpg
+    - assets/images/monkasel_2.jpg
+    - assets/images/monkasel_3.jpg
+    - assets/images/klenteng.jpg
+    - assets/images/klenteng_1.jpg
+    - assets/images/klenteng_2.jpg
+    - assets/images/klenteng_3.jpg
+    - assets/images/sampoerna.jpg
+    - assets/images/sampoerna_1.jpg
+    - assets/images/sampoerna_2.jpg
+    - assets/images/sampoerna_3.jpg
+    - assets/images/pahlawan.jpg
+    - assets/images/pahlawan_1.jpg
+    - assets/images/pahlawan_2.jpg
+    - assets/images/pahlawan_3.jpg
+    - assets/images/sby.jpg
+    - assets/images/sby_1.jpg
+    - assets/images/sby_2.jpg
+    - assets/images/sby_3.jpg
+    - assets/images/masjid.jpg
+    - assets/images/masjid_1.jpg
+    - assets/images/masjid_2.jpg
+    - assets/images/masjid_3.jpg
+    - assets/images/bungkul.jpg
+    - assets/images/bungkul_1.jpg
+    - assets/images/bungkul_2.jpg
+    - assets/images/bungkul_3.jpg
+
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
+
+    - family: Oxygen
+      fonts:
+        - asset: assets/fonts/Oxygen-Regular.ttf
+        - asset: assets/fonts/Oxygen-Bold.ttf
+          weight: 700
